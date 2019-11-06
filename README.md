@@ -1,11 +1,11 @@
 # Fuzzy Systems 3rd Assignment, AUTh [2019]
 > Create a fuzzy TSK model to model multivariable, nonlinear functions.
 
-> Datasets used	-> 
-> <ul>
-> <li> Task 1 :[CCPP Dataset](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant) </li>
-> <li> Task 2 :[Superconductivty Dataset](https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data) </li>
-> </ul>
+> Datasets used:
+
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Task 1 :[CCPP Dataset](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant) 
+
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Task 2 :[Superconductivty Dataset](https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data)
 
 > MATLAB Toolbox needed -> Fuzzy Logic Toolbox
 
