@@ -1,7 +1,7 @@
 %% Clear Workspace and close all files, to run the new test %%
 clear all; close all; clc;
 load superconduct.dat 
-%% Random Permutate the array, to shuffle the rows and run relieff to compute the Main Features%%
+%% Run relieff to compute the Main Features%%
 ranks = relieff(superconduct(:,1:end-1),superconduct(:,end),25);
 %% Pre-processing of data %%
 %~ Check for NaN ~%

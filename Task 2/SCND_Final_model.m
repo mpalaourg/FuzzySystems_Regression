@@ -2,7 +2,7 @@
 clear all; close all; clc;
 load superconduct.dat
 tic
-%% Random Permutate the array, to shuffle the rows and run relieff to compute the Main Features%%
+%% Run relieff to compute the Main Features%%
 ranks = relieff(superconduct(:,1:end-1),superconduct(:,end),25);
 fprintf('relieff is over.\n');
 %% Seperate dataset to D_trn, D_val, D_chk %%
