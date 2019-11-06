@@ -1,10 +1,8 @@
 %% Clear Workspace and close all files, to run the new test %%
 clear all; close all; clc;
 load superconduct.dat
-warning('off', 'fuzzy:general:warnGenfis3_Deprecation');
 tic
 %% Random Permutate the array, to shuffle the rows and run relieff to compute the Main Features%%
-superconduct = superconduct(randperm(size(superconduct,1)),:);
 ranks = relieff(superconduct(:,1:end-1),superconduct(:,end),25);
 fprintf('relieff is over.\n');
 %% Seperate dataset to D_trn, D_val, D_chk %%
