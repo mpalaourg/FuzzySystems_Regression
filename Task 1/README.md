@@ -3,6 +3,8 @@
 
 > Dataset used	-> [CCPP Dataset](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant)
 
+> MATLAB Toolbox needed -> Fuzzy Logic Toolbox
+
 <p align="justify">
 This is an <i>experimental</i> application developed as part of the course "Fuzzy Systems" assignment, that took place in the Department of Electrical & Computer Engineering at Aristotle University of Thessaloniki in 2019.
 </p>
