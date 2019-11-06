@@ -1,7 +1,6 @@
 %% Clear Workspace and close all files, to run the new test %%
 clear all; close all; clc;
 load CCPP.dat
-warning('off', 'fuzzy:general:warnGenfis1_Deprecation');
 tic;
 %% Normalize the Data %%
 [rows, columns] = size(CCPP);
