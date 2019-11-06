@@ -1,5 +1,5 @@
 # Fuzzy Systems 3rd Assignment, AUTh [2019]
-> Create a fuzzy TSK model to model multivariable, nonlinear functions.
+> Create a fuzzy TSK model to fit multivariable, nonlinear functions.
 
 > Dataset used	-> [CCPP Dataset](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant)
 
